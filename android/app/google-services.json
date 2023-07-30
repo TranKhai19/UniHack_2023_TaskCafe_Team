@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "148842405278",
+    "project_id": "unihack-22a02",
+    "storage_bucket": "unihack-22a02.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:148842405278:android:0033952150f8737c5aca8f",
+        "android_client_info": {
+          "package_name": "com.example.unihack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "148842405278-uiid5uu8pqc5c5q5flndfk986f0957lo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCG-YCoHP4drwAXHtlC9UiGyngtrQbDG1g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "148842405278-308ktp0fntkriqjd8bqudh81i8eknlch.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "148842405278-rlqjnejshsdapkko8m2alhtcl57j2jss.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.usecasepointstool"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
