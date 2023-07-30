@@ -1,0 +1,97 @@
+version: "3.1"
+
+nlu:
+- intent: clean
+  examples: |
+    - Có những chiến dịch dọn dẹp nào đang diễn ra trong khu vực cộng đồng của tôi và làm thế nào để tham gia vào đó
+    - Có những chiến dịch dọn dẹp nào đang diễn ra 
+    - Làm thế nào để khám phá và giữ gìn vệ sinh môi trường xung quanh khu dân cư?
+    - Có những cách nào để tăng cường ý thức cộng đồng về vấn đề dọn dẹp môi trường và ý nghĩa của nó?
+    - Tại sao việc tham gia vào chiến dịch dọn dẹp có thể tạo ra sự thay đổi tích cực cho môi trường và cộng đồng?
+    - Nêu một số ví dụ về các hoạt động dọn dẹp môi trường trong khu vực của tôi
+    - Làm thế nào để đưa ra kế hoạch dọn dẹp môi trường hợp lý và hiệu quả trong khu vực nông thôn?
+    - Có những lễ hội hoặc sự kiện dọn dẹp môi trường đang diễn ra trong khu vực tôi sống mà tôi có thể tham gia vào không?
+    - Làm thế nào để tổ chức các hoạt động dọn dẹp môi trường trong khu vực tự nhiên và các khu vực bị ô nhiễm môi trường?
+    - Làm thế nào để tham gia vào việc tổ chức các hoạt động trồng cây tại các khu vực thiếu cây xanh trong thành phố của tôi?
+
+- intent: classification
+  examples: |
+    - Làm thế nào để phân biệt các loại rác tái chế và đưa chúng vào các thùng phân loại đúng?
+    - Tại sao phân loại rác là một phương pháp quan trọng để giảm lượng rác thải đến bãi rác?
+    - Có những hệ quả gì nếu chúng ta không phân loại rác đúng cách và đưa chúng vào thùng tái chế?
+    - Bạn đã từng tham gia vào các hoạt động phân loại rác tại trường học hay cơquan chưa? Hãy kể về trải nghiệm của bạn.
+    - Làm thế nào để tạo ra các biện pháp phân loại rác hiệu quả và thúc đẩy sựtham gia của cộng đồng?
+    - Phân loại rác có liên quan gì đến việc bảo vệ các nguồn tài nguyên tự nhiênvà giảm thiểu ô nhiễm môi trường?
+    - Phân loại rác tại nhà như thế nào giúp giảm thiểu lượng rác thải đến bãi rác?
+    - Làm thế nào để giữ cho các thùng phân loại rác luôn sạch sẽ và đảm bảo rằngrác được đặt vào đúng thùng?
+    - Có những hệ quả nào nếu chúng ta không phân loại rác đúng cách và vứt vàothùng không đúng?
+    - Tôi có thể tìm hiểu về những loại rác không thể tái chế và cần được xử lýnhư thế nào?
+
+
+- intent: tree
+  examples: |
+    - Làm thế nào để tạo ra môi trường thuận lợi cho việc trồng cây trong khu vực thành thị hoặc nhà ở chật hẹp?
+    - Tôi có thể tham gia vào việc trồng cây trong các khu vực cạn kiệt và thiếunước không?
+    - Làm thế nào để giám sát và chăm sóc các cây trồng để đảm bảo chúng pháttriển mạnh mẽ và bền vững?
+    - Có những dự án trồng cây nào đang nhắm đến việc tái thiết lập rừng hoặc khuvực bị thiếu cây xanh không?
+    - Tôi có thể tìm hiểu về các loại cây bản địa và hoa quả địa phương phù hợp đểtrồng trong khu vực tôi sống không?
+    - Làm thế nào để tham gia vào các hoạt động trồng cây và chăm sóc cây trong khu vực sống của mình?
+    - Các loại cây nào thích hợp và dễ trồng nhất cho người mới bắt đầu và khôngcó kinh nghiệm trồng cây?
+    - Tại sao việc trồng cây có ý nghĩa quan trọng trong việc bảo vệ môi trường vàgiảm thiểu biến đổi khí hậu?
+    - Có những tổ chức hoặc chương trình trồng cây nào tôi có thể tham gia vào đểgóp phần xanh hơn cộng đồng và môi trường xung quanh?
+    - Làm thế nào để bảo vệ cây trồng khỏi sâu bệnh, thời tiết khắc nghiệt và cácyếu tố tự nhiên xấu?
+    - Tôi có thể tìm hiểu về các loại cây đặc biệt cần được bảo vệ và trồng lạitrong vùng địa phương của tôi không
+
+- intent: fund
+  examples: |
+    - Làm thế nào để tạo ra các chiến dịch gây quỹ môi trường cá nhân và hiệu quả?
+    - Có những chiến dịch gây quỹ nào đang nhắm đến việc xây dựng các khu vườn câyxanh và không gian công cộng xanh hơn?
+    - Tôi có thể tìm hiểu về các dự án gây quỹ hỗ trợ việc trồng cây và bảo vệ môitrường do các nghệ sĩ hoặc nhà thiết kế tổ chức không?
+    - Làm thế nào để kêu gọi sự hỗ trợ và quyên góp cho các chiến dịch bảo vệ môitrường từ các doanh nghiệp và tổ chức lớn?
+    - Có những chiến dịch gây quỹ môi trường nào đang nhắm đến việc tạo ra các khuvực công cộng xanh sạch hơn cho trẻ em và cộng đồng?
+    
+
+- intent: location
+  examples: |
+    - Khu vực Đà Nẵng
+    - tôi đang ở Vũng Tàu
+    - tôi muốn đi chơi Hà Nội
+    - Hãy giới thiệu về vẻ đẹp tự nhiên và di tích lịch sử ở thành phố Huế.
+    - Nếu đi du lịch vào mùa hè, bạn có thể khám phá những bãi biển tuyệt đẹp ởNha Trang, thành phố nào đó ở miền Trung Việt Nam.
+    - Đến Đà Nẵng, bạn sẽ được thưởng thức vẻ đẹp của cầu Rồng - một công trìnhkiến trúc nổi tiếng.
+    - Nếu muốn khám phá vùng Tây Bắc Việt Nam, bạn có thể ghé thăm thành phố SơnLa và hòa mình vào văn hóa dân tộc đa dạng.
+    - Nổi tiếng với khí hậu mát mẻ, Đà Lạt là điểm đến lý tưởng cho những ai muốntránh nóng mùa hè.
+    - Bạn có thể tham gia vào cuộc hành trình khám phá hòn đảo ngọc Phú Quốc ởmiền Nam Việt Nam.
+    - Thành phố biển Hội An sở hữu kiến trúc cổ kính và là nơi lưu giữ nhiều disản văn hóa độc đáo.
+    - Tại thành phố cổ Quy Nhơn, bạn có thể thưởng thức ẩm thực đặc sản và khámphá vùng du lịch biển thơ mộng.
+    - Có thể khám phá văn hóa của người dân miền Nam tại thành phố Cần Thơ, cũngnhư tham quan thị trường nổi Cái Răng nổi tiếng.
+    - Làm thế nào để tận hưởng không gian thoải mái và yên bình tại thành phố ĐàNẵng?
+    - Đến với Hà Nội, bạn có thể khám phá vẻ đẹp kiến trúc cổ kính và văn hóatruyền thống của thủ đô Việt Nam.
+    - Hòa mình vào thiên nhiên hùng vĩ của vùng cao nguyên Đà Lạt, thành phố nàođó ở miền Trung Việt Nam.
+    - Làng Du lịch cổ Phố Cổ Hội An chắc chắn sẽ làm bạn say đắm với những ngôinhà cổ xưa và sông Thu Bồn lãng mạn.
+    - Tận hưởng không gian yên bình và thiên nhiên tại thành phố Đà Lạt, một điểmđến nổi tiếng ở miền Trung Việt Nam.
+    - Nếu thích khám phá đời sống dân tộc miền núi, bạn có thể đến Sapa, thành phốnào đó ở miền Bắc Việt Nam cây hoa đua nhau nở rộ
+  
+
+- intent: time
+  examples: |
+    - Tháng 1 là tháng đầu tiên trong năm Dương lịch và có nhiều ngày nghỉ lễ quan trọng như Tết Dương lịch và Tết Nguyên đán.
+    - Tháng 2 thường có ngày rất lạnh, đặc biệt ở các vùng miền ôn hoặc châu Âu.'
+    - Vào tháng 3, mùa xuân bắt đầu và các cây hoa nở rộ khắp nơi.'
+    - Tháng 4 là tháng của những ngày lễ Phục sinh và kỷ niệm ngày Chiến thắngĐiện Biên Phủ.
+    - Vào tháng 5, nhiều nước tổ chức kỷ niệm ngày Quốc tế lao động để tôn vinhcông lao của người lao động.
+    - Tháng 6 thường là thời điểm bắt đầu mùa hè ở các vùng miền Bắc.
+    - Vào tháng 7, nhiều nước tổ chức các lễ hội và hoạt động ngoài trời trongthời tiết nóng.
+    - Tháng 8 thường là mùa du lịch nghỉ hè của nhiều người và có kỳ nghỉ lễ Quốckhánh ở nhiều quốc gia.
+    - 'Vào tháng 9, mùa thu đến với những cảnh quan vàng rực rỡ ở nhiều vùng miền.'
+    - Tháng 10 là tháng của những lễ hội và kỷ niệm quan trọng như ngày Phụ nữViệt Nam và ngày Giải phóng miền Nam.
+    - Vào tháng 11, nhiều nước tổ chức lễ hội đèn lồng truyền thống và các ngày kỷniệm quan trọng khác.
+    - Tháng 12 là tháng cuối cùng của năm và là thời gian của lễ hội, mua sắm vàkỳ nghỉ năm mới.
+    - Trong tháng 1, tôi thường đi dạo quanh công viên để thưởng thức không khí selạnh của mùa đông.
+    - Kỷ niệm ngày Valentine trong tháng 2 thường được tổ chức với những hoạt động lãng mạn.
+    - Vào tháng 3, nhiềuhững cảnh quan đẹp mắt.
+    - Tháng 4 là thời điểm chúng tôi thường tổ chức các cuộc họp quan trọng tạicông ty.
+    - Trong tháng 5, tôi thường cùng gia đình đi dã ngoại để tận hưởng không giantự nhiên.
+    - Tháng 6 là mùa hè, thời gian tuyệt vời để đi biển và tắm nắng.'
+    - Vào tháng 7, tôi thường tận hưởng kỳ nghỉ dài và đi du lịch đến các điểm đếnmới.
+    - Tháng 8 là thời gian chúng tôi tổ chức các buổi tiệc BBQ và picnic cùng bạnbè và gia đình.
